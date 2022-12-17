@@ -5,7 +5,7 @@ export const Section = ({ title, children }) => {
   return (
     <SectionLayout>
       <Title>{title}</Title>
-      <div>{children}</div>
+      {children}
     </SectionLayout>
   );
 };

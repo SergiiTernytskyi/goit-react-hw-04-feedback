@@ -37,7 +37,7 @@ export const Button = styled.button`
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
   cursor: pointer;
-  transition: color 250ms ease-out, box-shadow 250ms ease-out;
+  transition: color 250ms ease-out;
 
   :hover {
     color: ${props => {
@@ -52,7 +52,6 @@ export const Button = styled.button`
           throw new Error('Unexpected prop');
       }
     }};
-    box-shadow: none;
   }
 
   svg {
